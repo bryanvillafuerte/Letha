@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Letha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="Assets/Stylesheets and Scripts/script.js"></script>
+    <link href="Assets/Stylesheets and Scripts/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/bub3kin.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAV HEADER -->
+    <header>
+        <section>
+            <div class="headerpromo"><i class="fas fa-less-than"></i> &nbsp;&nbsp;&nbsp;&nbsp;Latest Promos and Discounts. <u>Click Here!</u>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-greater-than"></i></div>
+        </section>
+        <div class="logocontainer">
+            <a href="index.html"><img src="Assets/Images/lethalogo.svg" alt="Letha Logo" class="logo"></a>
+        </div>
+        <section class="headernav">
+            <div class="menubars">
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="leftmenu">
+                <ul class="menulinksleft">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="far fa-user"></i></li>
+                    <li><i class="fas fa-shopping-cart"></i></li>
+                </ul>
+            </div>
+            <div id="rightmenu">
+                <div class="menulinksright">
+                    <a href="index.html" class="rightlinks">Home</a>
+                    <a href="shop.html" class="rightlinks">Shop</a>
+                    <a href="about.html" class="rightlinks">About</a>
+                    <a href="contact.html" class="rightlinks"><u>Contact Us</u></a>
+                </div>
+            </div>
+            
+        </section>
+    </header>
+
+    <section class="content">
+    <!-- MAIN CONTENT -->
+    <div class="contactpage">
+        <div class="helptitle">
+            <h3>NEED HELP?</h3>
+        </div>
+        <div class="searchContainer">
+            <i class="fa fa-search searchIcon"></i>
+            <input class="searchBox" type="search" name="search" placeholder="What can we help you with?">
+            <input type="submit" value="GO" class="searchButton">
+        </div>
+        <div class="faqs">
+            <h3>QUICK FAQ's</h3>
+            <p>A quick way to find answers to our most frequently asked questions.</p>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Shipping and Delivery</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs1()"></i>
+                </div>
+                <div id="faqquestions1">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Orders and Status</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs2()"></i>
+                </div>
+                <div id="faqquestions2">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Returns</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs3()"></i>
+                </div>
+                <div id="faqquestions3">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Product Info</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs4()"></i>
+                </div>
+                <div id="faqquestions4">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Other Services</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs5()"></i>
+                </div>
+                <div id="faqquestions5">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+            <div class="faqscontainer">
+                <div class="faqtitle">
+                    <h4 class="faq">Privacy and Security</h4>
+                    <i class="fas fa-plus plusicon" onclick="openFaqs6()"></i>
+                </div>
+                <div id="faqquestions6">
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum mea no?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundiano?</p>
+                    <p>Lorem ipsum dolor sit amet, cibo iracundia voluptatum?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faqs">
+            <h3>CONTACT US</h3>
+            <div class="contactscontainer">
+                <div class="contact">
+                    <div class="contactsicon">
+                        <img src="Assets/Interface/mobile-alt-solid.svg" class="icons">
+                    </div>
+                    <div class="contactstext">
+                        <h4>PRODUCTS & ORDERS</h4>
+                        <p><b>+47 987 65 432</b></p>
+                        <p>Monday - Fridays</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contactsicon">
+                        <img src="Assets/Interface/info-circle-solid.svg" class="icons">
+                    </div>
+                    <div class="contactstext">
+                        <h4>COMPANY INFO & INQUIRIES</h4>
+                        <p><b>+47 987 65 432</b></p>
+                        <p>Monday - Fridays</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contactsicon">
+                        <img src="Assets/Interface/compass-regular.svg" class="icons">
+                    </div>
+                    <div class="contactstext">
+                        <h4>STORE LOCATOR</h4>
+                        <p><b>+47 987 65 432</b></p>
+                        <p>Monday - Fridays</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contactsicon">
+                        <img src="Assets/Interface/comment-dots-regular.svg" class="icons">
+                    </div>
+                    <div class="contactstext">
+                        <h4>TALK TO US</h4>
+                        <p><b>+47 987 65 432</b></p>
+                        <p>Monday - Fridays</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contactsicon">
+                        <img src="Assets/Interface/mobile-alt-solid.svg" class="icons">
+                    </div>
+                    <div class="contactstext">
+                        <h4>COMPLAINS & REPORTS</h4>
+                        <p><b>+47 987 65 432</b></p>
+                        <p>Monday - Fridays</p>
+                        <p>08:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="footercontainer">
+            <div class="footernav">
+                <h5>Got any questions?</h5>
+                <ul class="questions">
+                    <li class="questionlinks">Give us a call</li>
+                    <li class="questionlinks">Chat with us</li>
+                    <li class="questionlinks">Send us an email</li>
+                </ul>
+            </div>
+            <div class="footernav">
+                <h5>Connect to us</h5>
+                <p class="connecttext">Follow us for the latest releases, news, and updates about Letha.</p>
+                <ul class="connect">
+                    <li class="connectlinks"><i class="fab fa-facebook"></i></li>
+                    <li class="connectlinks"><i class="fab fa-twitter-square"></i></li>
+                    <li class="connectlinks"><i class="fab fa-instagram"></i></li>
+                    <li class="connectlinks"><i class="fab fa-snapchat-square"></i></li>
+                    <li class="connectlinks"><i class="fab fa-linkedin-in"></i></li>
+                </ul>
+            </div>
+            <div class="footernav">
+                <h5>Get the latest info by getting an email.</h5>
+                <form class="subscription">
+                    <input class="subscribe" type="text" name="name" value="Your Name"><br>
+                    <input class="subscribe" type="text" name="email" value="Email Address"><br>
+                    <input class="subscribebutton" type="submit" value="SUBSCRIBE">
+                </form>
+            </div>
+        </div>
+        <p class="copyright">© 2019 Noroff • Interaction Design • Bryan Luis Villafuerte • Course Assignment</p>
+    </footer>
+    </section>
+</body>
+</html>

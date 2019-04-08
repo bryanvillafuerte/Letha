@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000.453" height="1000.453" viewBox="0 0 1000.453 1000.453">
+  <g id="Group_24" data-name="Group 24" transform="translate(-114 -23.412)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="424.212" cy="424.212" r="424.212" transform="translate(188.661 102.064)"/>
+    <g id="Group_1" data-name="Group 1" transform="matrix(0.966, -0.259, 0.259, 0.966, 114, 234.833)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="364.672" cy="364.672" rx="364.672" ry="364.672" transform="translate(43.761 43.761)" fill="#fff"/>
+      <text id="Letha" transform="translate(153.162 545.433)" fill="#262626" font-size="186" font-family="AcuminPro-Semibold, Acumin Pro" font-weight="600"><tspan x="0" y="0">Letha</tspan></text>
+      <path id="shoe-prints-solid" d="M75.518,62.93H88.1V12.585H75.518a25.173,25.173,0,1,0,0,50.345ZM0,163.62a25.171,25.171,0,0,0,25.173,25.173H37.759V138.448H25.173A25.171,25.171,0,0,0,0,163.62Zm132.73-50.345c-13.731,0-29.955,5.16-41.192,12.586-9.75,6.443-17.511,12.586-41.192,12.586v50.345l22.628,6.281a160.736,160.736,0,0,0,31.588,5.919,136.823,136.823,0,0,0,38.38-2.439C186,189.3,201.38,168.82,201.38,151.034c0-25.173-33.11-37.759-68.65-37.759ZM193.286,2.827A136.677,136.677,0,0,0,154.905.388,161.017,161.017,0,0,0,123.318,6.3L100.69,12.585V62.93c23.678,0,31.442,6.144,41.192,12.586C153.12,82.942,169.344,88.1,183.075,88.1c35.54,0,68.65-12.586,68.65-37.759,0-17.786-15.379-38.27-58.44-47.517Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 258.643, 233.714)" fill="#262626"/>
+      <text id="Shoes_that_fit_you." data-name="Shoes that fit you." transform="translate(229.744 607.476)" fill="#262626" font-size="32" font-family="AcuminPro-Semibold, Acumin Pro" font-weight="600"><tspan x="0" y="0">Shoes that fit you.</tspan></text>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(21.88 21.88)" fill="none" stroke="#fff" stroke-width="2">
+        <ellipse cx="386.553" cy="386.553" rx="386.553" ry="386.553" stroke="none"/>
+        <ellipse cx="386.553" cy="386.553" rx="385.553" ry="385.553" fill="none"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="408.433" cy="408.433" r="408.433" stroke="none"/>
+        <circle cx="408.433" cy="408.433" r="406.933" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
